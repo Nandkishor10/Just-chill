@@ -1,0 +1,51 @@
+.hero-section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hero-content {
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+  }
+
+  .hero-heading {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .hero-cta {
+    margin-top: 30px;
+  }
+
+  .hero-headings {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .footer-text {
+    color: #888;
+  }
